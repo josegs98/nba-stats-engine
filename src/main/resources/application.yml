@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: nba-stats-engine
+  profiles:
+    active: dev
+
+balldontlie:
+  api-key: ${BALLDONTLIE_API_KEY:}
